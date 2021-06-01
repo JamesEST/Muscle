@@ -1,12 +1,12 @@
-# Muscle
+﻿# Muscle
 Repository for teacher task
 
 ### Создание тригера на заполнения таблицы logitable когда что-то добавят в таблицу autod
 ```
 CREATE TRIGGER autoLisamine
-at autod
+ON autod
 FOR INSERT
-An
+AS
 INSERT INTO logitabel(toiming, aeg, autoAndmed)
 SELECT 'AutoNumber on lisatud', GETDATE(), auto_nimetus FROM inserted
 ```
