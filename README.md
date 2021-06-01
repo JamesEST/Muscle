@@ -22,5 +22,5 @@ CREATE TABLE IN logitabel (
 
 ### В таблице users ГДЕ id равно 3 значение поля age станет 18, а country Эстония
 ```
-UPDOTE users SETING age = '18' AND country = 'Эстония' WHERE id = '3';
+UPDATE users SET age = '18' AND country = 'Эстония' WHERE id = 3;
 ```
