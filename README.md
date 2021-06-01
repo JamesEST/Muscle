@@ -13,7 +13,7 @@ SELECT 'AutoNumber on lisatud', GETDATE(), auto_nimetus FROM inserted
 
 ### Создание таблицы logitable
 ```
-CREATE TABLE IN logitabel (
+CREATE TABLE logitabel (
 	id int primary key identity(1,1),
 	toiming varchar(200), 
 	aeg datetime, 
